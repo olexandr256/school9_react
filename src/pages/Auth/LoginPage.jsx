@@ -29,9 +29,9 @@ const LoginPage = () => {
                 return;
             }
 
-            localStorage.setItem("token", data.accessToken);
+            localStorage.setItem("authToken", data.accessToken);
             localStorage.setItem("user", JSON.stringify(data));
-            navigate("/dashboard");
+            navigate("/", {replace:true});
         } catch (err) {
             setError("Не вдалося підключитись до сервера.");
         } finally {

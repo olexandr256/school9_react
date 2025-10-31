@@ -6,11 +6,9 @@ import Footer from "../pages/Admin/components/Footer";
 const AuthLayout = () => {
     return (
         <>
-            <Header/>
             <div className="site-wrapper">
                 <Outlet />{/* Тут рендеряться Home/About з їхнім <main> */}
             </div>
-            <Footer/>
         </>
     );
 };

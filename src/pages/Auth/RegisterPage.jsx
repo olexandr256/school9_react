@@ -30,7 +30,7 @@ const RegisterPage = () => {
                 body: JSON.stringify({
                     email,
                     password,
-                    role: ["user"],
+                    role: ["ROLE_USER"],
                 }),
             });
 
