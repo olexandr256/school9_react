@@ -28,6 +28,14 @@ const Sidebar = () => (
             {/* Sidebar Menu */}
             <nav className="mt-2">
                 <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <li className="nav-item">
+                        <a href="/files" className="nav-link">
+                            <i className="nav-icon far fa-image"></i>
+                            <p>
+                                File Manager
+                            </p>
+                        </a>
+                    </li>
                     {/* Add icons to the links using the .nav-icon class with font-awesome or any other icon font library */}
                     <li className="nav-item menu-open">
                         <a href="#" className="nav-link active">
